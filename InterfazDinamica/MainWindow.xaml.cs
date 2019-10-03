@@ -23,6 +23,8 @@ namespace InterfazDinamica
         public MainWindow()
         {
             InitializeComponent();
+            btnGuardar.Visibility = Visibility.Hidden;
+            btnCancelar.Visibility = Visibility.Hidden;
         }
 
         private void BtnAgregar_Click(object sender, RoutedEventArgs e)
@@ -31,9 +33,13 @@ namespace InterfazDinamica
             {
                 case 0:
                     grdTexto.Children.Add(new Alumno());
+                    btnGuardar.Visibility = Visibility.Visible;
+                    btnCancelar.Visibility = Visibility.Visible;
                     break;
                 case 1:
                     grdTexto.Children.Add(new Maestro());
+                    btnGuardar.Visibility = Visibility.Visible;
+                    btnCancelar.Visibility = Visibility.Visible;
                     break;
                 default:
                     break;
@@ -46,8 +52,12 @@ namespace InterfazDinamica
             switch(cbNuevo.SelectedIndex)
             {
                 case 0:
+                    btnGuardar.Visibility = Visibility.Hidden;
+                    btnCancelar.Visibility = Visibility.Hidden;
                     break;
                 case 1:
+                    btnGuardar.Visibility = Visibility.Hidden;
+                    btnCancelar.Visibility = Visibility.Hidden;
                     break;
                 default:
                     break;

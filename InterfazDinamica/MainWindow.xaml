@@ -15,7 +15,7 @@
         <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="270,26,0,0" Click="BtnAgregar_Click"/>
         <Grid x:Name="grdTexto" HorizontalAlignment="Left" Height="227" VerticalAlignment="Top" Width="509" Margin="42,65,0,0"/>
         <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="258,317,0,0" Click="BtnGuardar_Click"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="423,317,0,0" Click="BtnCancelar_Click"/>
+        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="423,317,0,0"/>
 
     </Grid>
 </Window>
